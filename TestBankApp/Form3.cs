@@ -10,22 +10,16 @@
     using System.Threading.Tasks;
     using System.Windows.Forms;
 
-    public partial class Form1 : Form
+    public partial class Form3 : Form
     {
-        public Form1()
+        public Form3()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Form2 newForm = new Form2();
-            newForm.Show();
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            Form3 newform = new Form3();
+            Form4 newform = new Form4();
             newform.Show();
         }
     }
