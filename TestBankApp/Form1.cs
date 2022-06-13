@@ -28,5 +28,16 @@
             Form3 newform = new Form3();
             newform.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form6 newform = new Form6();
+            newform.Show();
+        }
     }
 }
